@@ -15,7 +15,9 @@ if country == 'BRITAIN':
     print(f'Hi {name} the vaccine which is suitable for you is {v3}')
 elif country == 'INDIA':
     print(f'Hi {name} the vaccine which is suitable for you is {v1}')
-else:
+elif country == 'USA':
     print(f'Hi {name} the vaccine which is suitable for you is {v2}')
+ else:
+    print("Sorry We don't have date of your country")
 
 print(('Stay safe!! Stay happy'))
